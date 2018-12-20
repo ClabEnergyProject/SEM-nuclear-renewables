@@ -1,10 +1,14 @@
 # SEM-nuclear-renewables
-working version for nuclear vs. renewables analysis
+input data, model code, output for nuclear vs. renewables analysis
 
-updates for nuclear vs. renewables analysis will be made in this depository, with changes pulled from SEM-1 master when necessary
+models
+  SEM-1.1-const-nuc: constant nuclear generation
+  SEM-1.1-flex-nuc: flexible nuclear generation (no curtailed generation from nuclear)
+  input data (solar and wind capacity factors, demand) are in directory of each model
 
-master branch in this repository: SEM-1 master
+results
+  base case main text
+  results for all simulations without storage (Supplementary Note 3)
+  results for all simulations with storage (Supplementary Note 4)
 
-const-nuc: renewables vs. nuclear analysis with constant nuclear  
--- format based on SEM-1
--- nuclear, wind, and solar represented by Formulation A (previously Formulation 2A') with nonzero curtailment (generic equations)
+scripts for plots
