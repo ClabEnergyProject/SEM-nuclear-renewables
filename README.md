@@ -9,7 +9,7 @@ models
 
   - input data (solar and wind capacity factors, demand) are in directory of each model
 
-results (will upload to Zenodo upon publication)
+results (will upload to Zenodo upon publication; Zenodo uploads require publication details)
 
   - base case main text
 
